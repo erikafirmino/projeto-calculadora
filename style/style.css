@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#D0EFF2;
+    --cor1:#B0D5D9;
+    --cor2:#71A8D9;
+    --cor3:#2175BF;
+    --cor4:#D98D62;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--cor0);
+}
+.result{
+    height: 100px;
+    color: var(--cor4);
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid var(--cor2=);
+}
+.calculator {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: var(--cor1);
+}
+table td {
+    display: inline-block;
+}
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none; /* tira marcação de borda*/
+    background-color: var(--cor0);
+    color: var(--cor3);
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    transition: all 500ms ease-in-out;
+}
+.btn:hover {
+    background-color: var(--cor2);
+}
+.ac {
+    background-color: var(--cor2);
+}
+.ac:hover {
+    background-color: var(--cor4);
+}
+.especial {
+    background-color: var(--cor2);
+}
+.especial:hover {
+    background-color: var(--cor0);
+}
+.igual {
+    background-color: var(--cor2);
+}
+.igual:hover {
+    background-color: var(--cor4);
+}
