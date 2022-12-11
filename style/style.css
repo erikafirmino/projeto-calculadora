@@ -18,15 +18,16 @@ body {
     background-color: var(--cor0);
 }
 .result{
-    height: 100px;
+    height: 150px;
     color: var(--cor4);
-    text-align: right;
+    text-align: right ;
+    padding-top: 35px;
     font-size: 35px;
     word-wrap: break-word;
-    border-bottom: 1px solid var(--cor2=);
+    border-bottom: 1px solid var(--cor2);
 }
 .calculator {
-    width: 250px;
+    width: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,14 +40,14 @@ table td {
 }
 .btn {
     margin: 3px;
-    width: 50px;
-    height: 40px;
+    width: 63px;
+    height: 50px;
     cursor: pointer;
     border: none; /* tira marcação de borda*/
     background-color: var(--cor0);
     color: var(--cor3);
     font-family: var(--font-padrao);
-    font-size: 18px;
+    font-size: 19px;
     transition: all 500ms ease-in-out;
 }
 .btn:hover {
