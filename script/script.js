@@ -3,6 +3,8 @@ const confirmar = document.querySelector(' .igual ');
 
 function insert( valor ){
     resultado.innerHTML += valor;
+    // " += " é para verialvel recerber todo os valores digitados
+    // se for só " = " só assume o ultimo valor
 }
 function clean(){
     resultado.innerHTML = '  ';
